@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6057CF2D1B8E7F4700E92FAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6057CF2C1B8E7F4700E92FAA /* AppDelegate.swift */; };
+		6057CF2F1B8E7F4700E92FAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6057CF2E1B8E7F4700E92FAA /* ViewController.swift */; };
+		6057CF321B8E7F4700E92FAA /* Hosts_File_Changer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6057CF301B8E7F4700E92FAA /* Hosts_File_Changer.xcdatamodeld */; };
+		6057CF341B8E7F4700E92FAA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6057CF331B8E7F4700E92FAA /* Images.xcassets */; };
+		6057CF371B8E7F4700E92FAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6057CF351B8E7F4700E92FAA /* Main.storyboard */; };
+		6057CF431B8E7F4800E92FAA /* Hosts_File_ChangerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6057CF421B8E7F4800E92FAA /* Hosts_File_ChangerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6057CF3D1B8E7F4800E92FAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6057CF1F1B8E7F4700E92FAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6057CF261B8E7F4700E92FAA;
+			remoteInfo = "Hosts File Changer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6057CF271B8E7F4700E92FAA /* Hosts File Changer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hosts File Changer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6057CF2B1B8E7F4700E92FAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6057CF2C1B8E7F4700E92FAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6057CF2E1B8E7F4700E92FAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6057CF311B8E7F4700E92FAA /* Hosts_File_Changer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hosts_File_Changer.xcdatamodel; sourceTree = "<group>"; };
+		6057CF331B8E7F4700E92FAA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6057CF361B8E7F4700E92FAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6057CF3C1B8E7F4800E92FAA /* Hosts File ChangerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hosts File ChangerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6057CF411B8E7F4800E92FAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6057CF421B8E7F4800E92FAA /* Hosts_File_ChangerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hosts_File_ChangerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6057CF241B8E7F4700E92FAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6057CF391B8E7F4800E92FAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6057CF1E1B8E7F4700E92FAA = {
+			isa = PBXGroup;
+			children = (
+				6057CF291B8E7F4700E92FAA /* Hosts File Changer */,
+				6057CF3F1B8E7F4800E92FAA /* Hosts File ChangerTests */,
+				6057CF281B8E7F4700E92FAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6057CF281B8E7F4700E92FAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6057CF271B8E7F4700E92FAA /* Hosts File Changer.app */,
+				6057CF3C1B8E7F4800E92FAA /* Hosts File ChangerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6057CF291B8E7F4700E92FAA /* Hosts File Changer */ = {
+			isa = PBXGroup;
+			children = (
+				6057CF2C1B8E7F4700E92FAA /* AppDelegate.swift */,
+				6057CF2E1B8E7F4700E92FAA /* ViewController.swift */,
+				6057CF331B8E7F4700E92FAA /* Images.xcassets */,
+				6057CF351B8E7F4700E92FAA /* Main.storyboard */,
+				6057CF301B8E7F4700E92FAA /* Hosts_File_Changer.xcdatamodeld */,
+				6057CF2A1B8E7F4700E92FAA /* Supporting Files */,
+			);
+			path = "Hosts File Changer";
+			sourceTree = "<group>";
+		};
+		6057CF2A1B8E7F4700E92FAA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6057CF2B1B8E7F4700E92FAA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6057CF3F1B8E7F4800E92FAA /* Hosts File ChangerTests */ = {
+			isa = PBXGroup;
+			children = (
+				6057CF421B8E7F4800E92FAA /* Hosts_File_ChangerTests.swift */,
+				6057CF401B8E7F4800E92FAA /* Supporting Files */,
+			);
+			path = "Hosts File ChangerTests";
+			sourceTree = "<group>";
+		};
+		6057CF401B8E7F4800E92FAA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6057CF411B8E7F4800E92FAA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6057CF261B8E7F4700E92FAA /* Hosts File Changer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6057CF461B8E7F4800E92FAA /* Build configuration list for PBXNativeTarget "Hosts File Changer" */;
+			buildPhases = (
+				6057CF231B8E7F4700E92FAA /* Sources */,
+				6057CF241B8E7F4700E92FAA /* Frameworks */,
+				6057CF251B8E7F4700E92FAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hosts File Changer";
+			productName = "Hosts File Changer";
+			productReference = 6057CF271B8E7F4700E92FAA /* Hosts File Changer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6057CF3B1B8E7F4800E92FAA /* Hosts File ChangerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6057CF491B8E7F4800E92FAA /* Build configuration list for PBXNativeTarget "Hosts File ChangerTests" */;
+			buildPhases = (
+				6057CF381B8E7F4800E92FAA /* Sources */,
+				6057CF391B8E7F4800E92FAA /* Frameworks */,
+				6057CF3A1B8E7F4800E92FAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6057CF3E1B8E7F4800E92FAA /* PBXTargetDependency */,
+			);
+			name = "Hosts File ChangerTests";
+			productName = "Hosts File ChangerTests";
+			productReference = 6057CF3C1B8E7F4800E92FAA /* Hosts File ChangerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6057CF1F1B8E7F4700E92FAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Sujin;
+				TargetAttributes = {
+					6057CF261B8E7F4700E92FAA = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					6057CF3B1B8E7F4800E92FAA = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 6057CF261B8E7F4700E92FAA;
+					};
+				};
+			};
+			buildConfigurationList = 6057CF221B8E7F4700E92FAA /* Build configuration list for PBXProject "Hosts File Changer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6057CF1E1B8E7F4700E92FAA;
+			productRefGroup = 6057CF281B8E7F4700E92FAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6057CF261B8E7F4700E92FAA /* Hosts File Changer */,
+				6057CF3B1B8E7F4800E92FAA /* Hosts File ChangerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6057CF251B8E7F4700E92FAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6057CF341B8E7F4700E92FAA /* Images.xcassets in Resources */,
+				6057CF371B8E7F4700E92FAA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6057CF3A1B8E7F4800E92FAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6057CF231B8E7F4700E92FAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6057CF2F1B8E7F4700E92FAA /* ViewController.swift in Sources */,
+				6057CF2D1B8E7F4700E92FAA /* AppDelegate.swift in Sources */,
+				6057CF321B8E7F4700E92FAA /* Hosts_File_Changer.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6057CF381B8E7F4800E92FAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6057CF431B8E7F4800E92FAA /* Hosts_File_ChangerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6057CF3E1B8E7F4800E92FAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6057CF261B8E7F4700E92FAA /* Hosts File Changer */;
+			targetProxy = 6057CF3D1B8E7F4800E92FAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6057CF351B8E7F4700E92FAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6057CF361B8E7F4700E92FAA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6057CF441B8E7F4800E92FAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6057CF451B8E7F4800E92FAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6057CF471B8E7F4800E92FAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Hosts File Changer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6057CF481B8E7F4800E92FAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Hosts File Changer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6057CF4A1B8E7F4800E92FAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Hosts File ChangerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hosts File Changer.app/Contents/MacOS/Hosts File Changer";
+			};
+			name = Debug;
+		};
+		6057CF4B1B8E7F4800E92FAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Hosts File ChangerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hosts File Changer.app/Contents/MacOS/Hosts File Changer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6057CF221B8E7F4700E92FAA /* Build configuration list for PBXProject "Hosts File Changer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6057CF441B8E7F4800E92FAA /* Debug */,
+				6057CF451B8E7F4800E92FAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6057CF461B8E7F4800E92FAA /* Build configuration list for PBXNativeTarget "Hosts File Changer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6057CF471B8E7F4800E92FAA /* Debug */,
+				6057CF481B8E7F4800E92FAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6057CF491B8E7F4800E92FAA /* Build configuration list for PBXNativeTarget "Hosts File ChangerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6057CF4A1B8E7F4800E92FAA /* Debug */,
+				6057CF4B1B8E7F4800E92FAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6057CF301B8E7F4700E92FAA /* Hosts_File_Changer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6057CF311B8E7F4700E92FAA /* Hosts_File_Changer.xcdatamodel */,
+			);
+			currentVersion = 6057CF311B8E7F4700E92FAA /* Hosts_File_Changer.xcdatamodel */;
+			path = Hosts_File_Changer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6057CF1F1B8E7F4700E92FAA /* Project object */;
+}
