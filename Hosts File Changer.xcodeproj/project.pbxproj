@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		601BF0541B91102B00DD4564 /* FileHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601BF0531B91102B00DD4564 /* FileHandling.swift */; };
+		6036D9811BA9F2EC000A972A /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6036D9801BA9F2EC000A972A /* TableView.swift */; };
+		6050447A1B9016BA00742AD7 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605044791B9016BA00742AD7 /* TextView.swift */; };
 		6057CF2D1B8E7F4700E92FAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6057CF2C1B8E7F4700E92FAA /* AppDelegate.swift */; };
 		6057CF2F1B8E7F4700E92FAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6057CF2E1B8E7F4700E92FAA /* ViewController.swift */; };
-		6057CF321B8E7F4700E92FAA /* Hosts_File_Changer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6057CF301B8E7F4700E92FAA /* Hosts_File_Changer.xcdatamodeld */; };
 		6057CF341B8E7F4700E92FAA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6057CF331B8E7F4700E92FAA /* Images.xcassets */; };
 		6057CF371B8E7F4700E92FAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6057CF351B8E7F4700E92FAA /* Main.storyboard */; };
 		6057CF431B8E7F4800E92FAA /* Hosts_File_ChangerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6057CF421B8E7F4800E92FAA /* Hosts_File_ChangerTests.swift */; };
+		6091C5121B8FAA000023A0CA /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6091C5111B8FAA000023A0CA /* Data.swift */; };
+		6098B5701B90399400F73D07 /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6098B56F1B90399400F73D07 /* WindowController.swift */; };
+		60F66F181B92678700E616B3 /* Hosts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 60F66F161B92678700E616B3 /* Hosts.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +31,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		601BF0531B91102B00DD4564 /* FileHandling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileHandling.swift; sourceTree = "<group>"; };
+		6036D9801BA9F2EC000A972A /* TableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableView.swift; path = ../TableView.swift; sourceTree = "<group>"; };
+		605044791B9016BA00742AD7 /* TextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		6057CF271B8E7F4700E92FAA /* Hosts File Changer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hosts File Changer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6057CF2B1B8E7F4700E92FAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6057CF2C1B8E7F4700E92FAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6057CF2E1B8E7F4700E92FAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6057CF311B8E7F4700E92FAA /* Hosts_File_Changer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hosts_File_Changer.xcdatamodel; sourceTree = "<group>"; };
 		6057CF331B8E7F4700E92FAA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6057CF361B8E7F4700E92FAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6057CF3C1B8E7F4800E92FAA /* Hosts File ChangerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hosts File ChangerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6057CF411B8E7F4800E92FAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6057CF421B8E7F4800E92FAA /* Hosts_File_ChangerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hosts_File_ChangerTests.swift; sourceTree = "<group>"; };
+		6091C5111B8FAA000023A0CA /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		6098B56F1B90399400F73D07 /* WindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
+		60F66F171B92678700E616B3 /* Hosts.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hosts.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +87,11 @@
 		6057CF291B8E7F4700E92FAA /* Hosts File Changer */ = {
 			isa = PBXGroup;
 			children = (
+				6098B56F1B90399400F73D07 /* WindowController.swift */,
 				6057CF2C1B8E7F4700E92FAA /* AppDelegate.swift */,
 				6057CF2E1B8E7F4700E92FAA /* ViewController.swift */,
-				6057CF331B8E7F4700E92FAA /* Images.xcassets */,
-				6057CF351B8E7F4700E92FAA /* Main.storyboard */,
-				6057CF301B8E7F4700E92FAA /* Hosts_File_Changer.xcdatamodeld */,
+				6036D9801BA9F2EC000A972A /* TableView.swift */,
+				605044791B9016BA00742AD7 /* TextView.swift */,
 				6057CF2A1B8E7F4700E92FAA /* Supporting Files */,
 			);
 			path = "Hosts File Changer";
@@ -90,7 +100,12 @@
 		6057CF2A1B8E7F4700E92FAA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6057CF351B8E7F4700E92FAA /* Main.storyboard */,
+				601BF0531B91102B00DD4564 /* FileHandling.swift */,
+				6091C5111B8FAA000023A0CA /* Data.swift */,
+				60F66F161B92678700E616B3 /* Hosts.xcdatamodeld */,
 				6057CF2B1B8E7F4700E92FAA /* Info.plist */,
+				6057CF331B8E7F4700E92FAA /* Images.xcassets */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -156,7 +171,9 @@
 		6057CF1F1B8E7F4700E92FAA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = Sujin;
 				TargetAttributes = {
 					6057CF261B8E7F4700E92FAA = {
@@ -211,9 +228,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60F66F181B92678700E616B3 /* Hosts.xcdatamodeld in Sources */,
 				6057CF2F1B8E7F4700E92FAA /* ViewController.swift in Sources */,
+				6098B5701B90399400F73D07 /* WindowController.swift in Sources */,
+				601BF0541B91102B00DD4564 /* FileHandling.swift in Sources */,
+				6036D9811BA9F2EC000A972A /* TableView.swift in Sources */,
 				6057CF2D1B8E7F4700E92FAA /* AppDelegate.swift in Sources */,
-				6057CF321B8E7F4700E92FAA /* Hosts_File_Changer.xcdatamodeld in Sources */,
+				6050447A1B9016BA00742AD7 /* TextView.swift in Sources */,
+				6091C5121B8FAA000023A0CA /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +290,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -334,6 +357,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "Hosts File Changer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sujin.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -345,6 +369,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "Hosts File Changer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sujin.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -364,6 +389,7 @@
 				);
 				INFOPLIST_FILE = "Hosts File ChangerTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sujin.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hosts File Changer.app/Contents/MacOS/Hosts File Changer";
 			};
@@ -380,6 +406,7 @@
 				);
 				INFOPLIST_FILE = "Hosts File ChangerTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sujin.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hosts File Changer.app/Contents/MacOS/Hosts File Changer";
 			};
@@ -404,6 +431,7 @@
 				6057CF481B8E7F4800E92FAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6057CF491B8E7F4800E92FAA /* Build configuration list for PBXNativeTarget "Hosts File ChangerTests" */ = {
 			isa = XCConfigurationList;
@@ -412,17 +440,18 @@
 				6057CF4B1B8E7F4800E92FAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		6057CF301B8E7F4700E92FAA /* Hosts_File_Changer.xcdatamodeld */ = {
+		60F66F161B92678700E616B3 /* Hosts.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				6057CF311B8E7F4700E92FAA /* Hosts_File_Changer.xcdatamodel */,
+				60F66F171B92678700E616B3 /* Hosts.xcdatamodel */,
 			);
-			currentVersion = 6057CF311B8E7F4700E92FAA /* Hosts_File_Changer.xcdatamodel */;
-			path = Hosts_File_Changer.xcdatamodeld;
+			currentVersion = 60F66F171B92678700E616B3 /* Hosts.xcdatamodel */;
+			path = Hosts.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
